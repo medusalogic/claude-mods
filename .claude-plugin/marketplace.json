@@ -1,0 +1,14 @@
+{
+  "name": "claude-mods",
+  "description": "Mods for Claude Code and the Claude desktop app",
+  "owner": {
+    "name": "medusalogic"
+  },
+  "plugins": [
+    {
+      "name": "session-notes",
+      "source": "./session-notes",
+      "description": "Session stats in a band above the prompt, and a notes side panel"
+    }
+  ]
+}

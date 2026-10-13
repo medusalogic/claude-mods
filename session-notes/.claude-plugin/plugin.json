@@ -1,0 +1,27 @@
+{
+  "name": "session-notes",
+  "version": "0.1.0",
+  "description": "Session stats in a band above the prompt, and a notes side panel",
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "warnPercent": {
+      "type": "number",
+      "title": "Warning threshold",
+      "description": "Context and limit bars turn yellow at or above this percent",
+      "default": 60,
+      "min": 0,
+      "max": 100
+    },
+    "errorPercent": {
+      "type": "number",
+      "title": "Critical threshold",
+      "description": "Context and limit bars turn red at or above this percent",
+      "default": 85,
+      "min": 0,
+      "max": 100
+    }
+  },
+  "author": {
+    "name": "Montu"
+  }
+}
